@@ -82,7 +82,7 @@ DATABASES = {
         'USER': 'sigma',
         'PASSWORD': 'sigma1q2w3e4r',
         'HOST': '127.0.0.1',
-        'PORT': '5432', # 5432
+        'PORT': '5432',
     }
 }
 
