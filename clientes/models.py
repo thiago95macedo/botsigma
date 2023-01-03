@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.core.validators import RegexValidator
 from cpf_field.models import CPFField
 
 
@@ -15,9 +16,19 @@ class Cliente(models.Model):
         'CPF', 
         unique=True, 
         blank=False, 
-        null=True
-    
+        null=True    
     )
+
+    mobileRegex = RegexValidator(regex = r"^\+?1?\d{8,15}$")
+    mobile = models.CharField(
+        'Celular',
+        validators = [mobileRegex],
+        max_length=16,
+        unique=False, 
+        blank=False, 
+        null=True    
+    )
+
     TRADER_BROKERAGE_CHOICES = (
         ('iqoption', 'IQ Option'),
     )

@@ -1,5 +1,7 @@
 # python manage.py startapp iqoption (Criar APP)
 # python manage.py makemigrations iqoption (Criar tabelas dos models no banco de dados)
+# python manage.py showmigrations
+# python manage.py migrate --fake botsigma zero
 
 
 sudo apt install python3-venv
@@ -18,6 +20,7 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install --upgrade setuptools
 pip install -r requeriments.txt
+pip install -U https://github.com/thiago95macedo/iqoptionapi/archive/refs/heads/master.zip
 
 django-admin startproject botsigma .
 python manage.py migrate
