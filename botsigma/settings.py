@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cpf_field',
     'clientes.apps.ClientesConfig',
+    'iqoption.apps.IqoptionConfig',
 ]
 
 MIDDLEWARE = [
