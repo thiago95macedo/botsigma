@@ -1,3 +1,5 @@
 django
 django-cpf
 psycopg2
+websocket-client==0.56
+https://github.com/thiago95macedo/iqoptionapi/archive/refs/heads/master.zip
