@@ -1,4 +1,5 @@
 # python manage.py startapp iqoption (Criar APP)
+# python manage.py makemigrations iqoption (Criar tabelas dos models no banco de dados)
 
 
 sudo apt install python3-venv
