@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'cpf_field',
     # Aplicação
     'clientes.apps.ClientesConfig',
+    'iqoption.apps.IqoptionConfig',
 ]
 
 MIDDLEWARE = [
