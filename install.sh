@@ -1,4 +1,11 @@
+# python manage.py startapp iqoption (Criar APP)
+
+
 sudo apt install python3-venv
+
+sudo apt install gcc g++ make
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install nodejs
 
 sudo apt install postgresql postgresql-contrib
 sudo -u postgres psql -e --command "CREATE USER sigma WITH SUPERUSER PASSWORD 'sigma1q2w3e4r'"
