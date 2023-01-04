@@ -29,7 +29,6 @@ INSTALLED_APPS = [
     # Bibliotecas
     'cpf_field',
     # Aplicação
-    'clientes.apps.ClientesConfig',
     'iqoption.apps.IqoptionConfig',
 ]
 

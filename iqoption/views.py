@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Bot de operações IQ Options")
+    return HttpResponse("Cadastro de Iqoption")
