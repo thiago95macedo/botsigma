@@ -1,4 +1,0 @@
-django
-django-cpf
-psycopg2
-websocket-client==0.56
